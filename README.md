@@ -14,10 +14,10 @@ that is passed to stencil contains a combination of:
 
 ## Usage
 
-To use from Leiningen add to `project.clj`:
-```clojure
-:plugins [ [lein-resource "16.9.1"] ] 
-```
+To use from Leiningen add this project to the `:plugins` vector in your `project.clj`:
+
+[![Current version](https://img.shields.io/clojars/v/lein-resource.svg)](http://clojars.org/lein-resource)
+
 To have it run before the jar file creation:
 ```clojure
 :prep-tasks ["javac" "compile" "resource"]
